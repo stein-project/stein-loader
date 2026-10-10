@@ -1,0 +1,92 @@
+{
+  "discord": "https://discord.gg/MEHE9b5bjj",
+  "latest": {
+    "version": "0.1.29",
+    "url": "https://github.com/Stein-Project/stein-loader/releases/latest"
+  },
+  "news": {
+    "id": "discord",
+    "title": {
+      "pt_BR": "Junte-se ao Discord",
+      "en_US": "Join the Discord",
+      "es_ES": "Únete al Discord"
+    },
+    "text": {
+      "pt_BR": "Novas versões, suporte e dúvidas.",
+      "en_US": "New versions, support and questions.",
+      "es_ES": "Nuevas versiones, soporte y dudas."
+    },
+    "url": "https://discord.gg/MEHE9b5bjj"
+  },
+  "mods": [
+    {
+      "id": "mouse",
+      "modId": "steinmouse",
+      "name": "Mouse",
+      "file": "Mouse.steinmod",
+      "version": "0.1.4",
+      "url": "https://github.com/x4vieer/stein-mouse/releases/download/v0.1.4/Mouse.steinmod",
+      "sha256": "f0de0cdbddac496b5b1882bcec68204ea3c46e3eb1f98b74d504d0a463428a01",
+      "loader": "0.1.16",
+      "description": "Shift e arrastar para transferir itens em inventários e baús."
+    },
+    {
+      "id": "combat",
+      "modId": "steincombat",
+      "name": "Combat",
+      "file": "Combat.steinmod",
+      "version": "0.1.18",
+      "url": "https://github.com/x4vieer/stein-combat/releases/download/v0.1.18/Combat.steinmod",
+      "sha256": "ad0477184231d5c1edb15b5ea37f5496474d55cda202074557f9355620766ec3",
+      "loader": "0.1.22",
+      "description": "Aliados e clãs, automações de armadura e efeitos, e movimentação para PvP."
+    },
+    {
+      "id": "hud",
+      "modId": "steinhud",
+      "name": "HUD",
+      "file": "HUD.steinmod",
+      "version": "0.1.10",
+      "url": "https://github.com/x4vieer/stein-hud/releases/download/v0.1.10/HUD.steinmod",
+      "sha256": "e28fc4f7f7b39cb916d524db358b0163c929f5a9d641c469987a79c6ef78a809",
+      "loader": "0.1.21",
+      "description": "HUD personalizável, minimapa e lista do Tab."
+    },
+    {
+      "id": "connect",
+      "modId": "steinconnect",
+      "name": "Connect",
+      "file": "Connect.steinmod",
+      "version": "0.1.7",
+      "url": "https://github.com/x4vieer/stein-connect/releases/download/v0.1.7/Connect.steinmod",
+      "sha256": "87b403161649b8c233c047d2169b2835756d73dd69022a21a4bdd9d9eee4e9fa",
+      "loader": "0.1.16",
+      "description": "Contas, reconexão automática e proxy SOCKS5."
+    },
+    {
+      "id": "keybind",
+      "modId": "steinkeybind",
+      "name": "Keybind",
+      "file": "Keybind.steinmod",
+      "version": "0.1.0",
+      "url": "https://github.com/x4vieer/stein-keybind/releases/download/v0.1.0/Keybind.steinmod",
+      "sha256": "b8fe816205a7e9ee3dc34707f24b979da49a165432b2c622cd75a825ab3a8550",
+      "loader": "0.1.20",
+      "description": "Mensagens e comandos numa tecla."
+    },
+    {
+      "id": "replay",
+      "modId": "steinreplay",
+      "name": "Replay",
+      "file": "Replay.steinmod",
+      "version": "0.1.0",
+      "url": "https://github.com/x4vieer/stein-replay/releases/download/v0.1.0/Replay.steinmod",
+      "sha256": "d7c33245baae2bb2a7e8d5f07c67d45d76814ca936ae3427bce2d4ac5f7121eb",
+      "loader": "0.1.21",
+      "description": "Replay da morte: veja como você morreu antes de renascer."
+    }
+  ],
+  "test": {
+    "mods": []
+  }
+}
