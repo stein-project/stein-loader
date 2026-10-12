@@ -16,17 +16,17 @@ Already installed? The button says Update and keeps your earlier choices.
 
 ## Mods
 
-Each mod has its own repository and its own releases, so a download link always points at that mod's latest
-version. They are installed by hand: drop the `.steinmod` into the `mods` folder of your `.minecraft` — the
-installer never adds or removes mods. They are turned on and off in the Stein Loader menu and set up in the Panel
-(Insert).
+Each official mod has its own repository and its own releases, with the mod's index (`steinmods.json`) on each one.
+The Stein Client and the installer read those indexes, install the mods you choose and keep them updated; the
+installer never removes a `.steinmod` it does not manage. You can also drop a `.steinmod` into the `mods` folder by
+hand. Mods are turned on and off in the Stein Loader menu and set up in the Panel (Insert).
 
 | mod | what it does | download |
 | --- | --- | --- |
-| [HUD](https://github.com/x4vieer/stein-hud) | customizable HUD, minimap and the Tab list | [HUD.steinmod](https://github.com/x4vieer/stein-hud/releases/latest/download/HUD.steinmod) |
-| [Connect](https://github.com/x4vieer/stein-connect) | accounts, reconnect and SOCKS5 proxy | [Connect.steinmod](https://github.com/x4vieer/stein-connect/releases/latest/download/Connect.steinmod) |
-| [Combat](https://github.com/x4vieer/stein-combat) | clans, allies, nearest enemy, hide allies | [Combat.steinmod](https://github.com/x4vieer/stein-combat/releases/latest/download/Combat.steinmod) |
-| [Mouse](https://github.com/x4vieer/stein-mouse) | inventory gestures: shift-drag and scroll | [Mouse.steinmod](https://github.com/x4vieer/stein-mouse/releases/latest/download/Mouse.steinmod) |
+| [HUD](https://github.com/Stein-Project/hud) | customizable HUD, minimap and the Tab list | [HUD.steinmod](https://github.com/Stein-Project/hud/releases/latest/download/HUD.steinmod) |
+| [Connect](https://github.com/Stein-Project/connect) | accounts, reconnect and SOCKS5 proxy | [Connect.steinmod](https://github.com/Stein-Project/connect/releases/latest/download/Connect.steinmod) |
+| [Keybind](https://github.com/Stein-Project/keybind) | chat messages and commands on a key | [Keybind.steinmod](https://github.com/Stein-Project/keybind/releases/latest/download/Keybind.steinmod) |
+| [Replay](https://github.com/Stein-Project/replay) | see how you died | [Replay.steinmod](https://github.com/Stein-Project/replay/releases/latest/download/Replay.steinmod) |
 
 ## stein.json
 
@@ -38,6 +38,8 @@ next time they start the game — no new Loader release and no new installer.
   accepted: the Loader refuses any other address.
 - **`latest`** — the installer version that is published and where to get it. The game compares it with the
   version installed on that machine and, when this one is newer, shows a balloon on the main menu.
+- **`sources`** — the indexes of the official mods (the `steinmods.json` of each mod's latest release), which the
+  Stein Client and the installer read. `mods` is the older single list, kept for launchers and installers from before.
 - **`news`** — a small balloon on the main menu: `id` (shown once per id), `title` and `text` (one string, or one
   entry per game language, with `en_US` as the fallback) and an optional `url`.
 
