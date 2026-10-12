@@ -26,28 +26,6 @@
   ],
   "mods": [
     {
-      "id": "mouse",
-      "modId": "steinmouse",
-      "name": "Mouse",
-      "file": "Mouse.steinmod",
-      "version": "0.1.5",
-      "url": "https://github.com/x4vieer/stein-mouse/releases/download/v0.1.5/Mouse.steinmod",
-      "sha256": "5f60cd14f224606b40e355c5aec5c93daee74e485455757b42f432fe43ab67d3",
-      "loader": "0.1.16",
-      "description": "Shift e arrastar para transferir itens em inventários e baús."
-    },
-    {
-      "id": "combat",
-      "modId": "steincombat",
-      "name": "Combat",
-      "file": "Combat.steinmod",
-      "version": "0.1.19",
-      "url": "https://github.com/x4vieer/stein-combat/releases/download/v0.1.19/Combat.steinmod",
-      "sha256": "223dc4b0166943f2236a228b31224cb8218480322d56efcb9f44c208e6bcc678",
-      "loader": "0.1.22",
-      "description": "Aliados e clãs, automações de armadura e efeitos, e movimentação para PvP."
-    },
-    {
       "id": "hud",
       "modId": "steinhud",
       "name": "HUD",
