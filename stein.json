@@ -24,9 +24,9 @@
       "modId": "steinmouse",
       "name": "Mouse",
       "file": "Mouse.steinmod",
-      "version": "0.1.4",
-      "url": "https://github.com/x4vieer/stein-mouse/releases/download/v0.1.4/Mouse.steinmod",
-      "sha256": "f0de0cdbddac496b5b1882bcec68204ea3c46e3eb1f98b74d504d0a463428a01",
+      "version": "0.1.5",
+      "url": "https://github.com/x4vieer/stein-mouse/releases/download/v0.1.5/Mouse.steinmod",
+      "sha256": "5f60cd14f224606b40e355c5aec5c93daee74e485455757b42f432fe43ab67d3",
       "loader": "0.1.16",
       "description": "Shift e arrastar para transferir itens em inventários e baús."
     },
