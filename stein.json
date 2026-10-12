@@ -35,9 +35,9 @@
       "modId": "steincombat",
       "name": "Combat",
       "file": "Combat.steinmod",
-      "version": "0.1.18",
-      "url": "https://github.com/x4vieer/stein-combat/releases/download/v0.1.18/Combat.steinmod",
-      "sha256": "ad0477184231d5c1edb15b5ea37f5496474d55cda202074557f9355620766ec3",
+      "version": "0.1.19",
+      "url": "https://github.com/x4vieer/stein-combat/releases/download/v0.1.19/Combat.steinmod",
+      "sha256": "223dc4b0166943f2236a228b31224cb8218480322d56efcb9f44c208e6bcc678",
       "loader": "0.1.22",
       "description": "Aliados e clãs, automações de armadura e efeitos, e movimentação para PvP."
     },
