@@ -5,18 +5,18 @@
     "url": "https://github.com/Stein-Project/stein-loader/releases/latest"
   },
   "news": {
-    "id": "discord",
+    "id": "new-home-0.1.34",
     "title": {
-      "pt_BR": "Junte-se ao Discord",
-      "en_US": "Join the Discord",
-      "es_ES": "Únete al Discord"
+      "pt_BR": "Versão nova do Stein",
+      "en_US": "A new Stein version",
+      "es_ES": "Nueva versión de Stein"
     },
     "text": {
-      "pt_BR": "Novas versões, suporte e dúvidas.",
-      "en_US": "New versions, support and questions.",
-      "es_ES": "Nuevas versiones, soporte y dudas."
+      "pt_BR": "Abra o Stein Client ou baixe o instalador novo para atualizar.",
+      "en_US": "Open the Stein Client or download the new installer to update.",
+      "es_ES": "Abre Stein Client o descarga el instalador nuevo para actualizar."
     },
-    "url": "https://discord.gg/MEHE9b5bjj"
+    "url": "https://github.com/Stein-Project/installer/releases/latest"
   },
   "sources": [
     "https://github.com/Stein-Project/hud/releases/latest/download/steinmods.json",
